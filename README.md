@@ -18,7 +18,7 @@
 ---
 
 <div align="center" style="background-color: #0d1b2a; border: 2px solid #38e3c2; padding: 15px; border-radius: 12px; margin: 20px 0;">
-  <h3>🌐 Play Now Online (Main Attraction)</h3>
+  <h3>🌐 Play Now Online </h3>
   <p>Experience the fully interactive and responsive Sudoku Studio instantly in your web browser:</p>
   <a href="https://codealpha-sudoku-solver.vercel.app/" target="_blank" style="font-size: 1.25em; font-weight: bold; color: #38e3c2; text-decoration: none;">👉 https://codealpha-sudoku-solver.vercel.app/ 👈</a>
   <p style="font-size: 0.9em; color: #8892b0; margin-top: 10px;">*No installation, compile steps, or downloads required.*</p>
