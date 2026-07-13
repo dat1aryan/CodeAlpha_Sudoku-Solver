@@ -77,7 +77,7 @@ This project was built as **Task 3** of the [CodeAlpha](https://www.codealpha.te
 
 ## 🚀 Build & Run
 
-### 🌐 Option 1: Live Web Application (Main Attraction)
+### 🌐 Option 1: Live Web Application
 Play instantly online with no setup, configuration, or compilation steps. Optimize for mobile or desktop:
 👉 **[codealpha-sudoku-solver.vercel.app](https://codealpha-sudoku-solver.vercel.app/)** 👈
 
