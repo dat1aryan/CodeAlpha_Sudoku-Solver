@@ -1,0 +1,6 @@
+build*/
+*.exe
+!/SudokuStudio.exe
+*.user
+*.suo
+*.vcxproj.user

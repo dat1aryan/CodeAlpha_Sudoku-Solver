@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0a1220">
+    <meta name="description" content="A thoughtful, interactive Sudoku solver.">
+    <title>Sudoku Studio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">SUDOKU / BACKTRACKING EDITION</p>
+          <h1>Sudoku <span>Studio</span></h1>
+        </div>
+        <p class="tagline">A quiet space for loud logic.</p>
+      </header>
+      <section class="workspace">
+        <article class="board-card">
+          <div class="card-label">THE BOARD</div>
+          <div id="board" class="board" role="grid" aria-label="Sudoku board"></div>
+          <p class="board-note">Click a cell, then use your keyboard or the number pad.</p>
+        </article>
+        <aside class="control-card">
+          <p class="card-label">CONTROL DESK</p>
+          <h2>Solve with clarity.</h2>
+          <p class="lead">Place a number, follow the glow, or let the solver find a valid path.</p>
+          <div class="actions">
+            <button id="solve" class="button primary">Solve board</button>
+            <button id="reset" class="button">Reset</button>
+            <button id="next" class="button">New board</button>
+          </div>
+          <div class="status-panel" aria-live="polite">
+            <p>STATUS</p>
+            <strong id="status">Ready when you are.</strong>
+          </div>
+          <div class="keypad" aria-label="Number pad">
+            <p class="card-label">NUMBER PAD</p>
+            <div id="numbers" class="numbers"></div>
+          </div>
+          <p class="shortcut">Arrows to move · Enter to solve · N for a new board</p>
+        </aside>
+      </section>
+      <footer>ROW + COLUMN + BOX <span>/</span> MRV SEARCH</footer>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
